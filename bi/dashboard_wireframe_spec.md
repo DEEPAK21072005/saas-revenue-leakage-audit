@@ -24,6 +24,9 @@
 
 ## 2. Page 1: "CFO Revenue Health & MRR Waterfall"
 
+### Visual Dashboard Preview (Production Power BI)
+![Page 1: CFO Revenue Health & MRR Waterfall](screenshots/page1_cfo_health.png)
+
 ### Layout Grid Overview (1920 × 1080 Native Resolution)
 ```
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -106,6 +109,9 @@
 ---
 
 ## 3. Page 2: "Payment Operations & Involuntary Leakage Diagnostic"
+
+### Visual Dashboard Preview (Production Power BI)
+![Page 2: Payment Operations & Involuntary Leakage Diagnostic](screenshots/page2_dunning_ops.png)
 
 ### Layout Grid Overview (1920 × 1080 Native Resolution)
 ```

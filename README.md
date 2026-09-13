@@ -269,13 +269,21 @@ Year-1 Capital Return Multiple               | N/A                 | 40.1x ROI M
 
 ---
 
-## 7. Power BI Semantic Model & Executive Wireframe Spec
+## 7. Power BI Semantic Model & Executive Dashboards
 
 The business intelligence semantic layer is fully documented in:
 - [`bi/dax_measures_reference.md`](file:///c:/Users/polis/OneDrive/Desktop/Personal/.vscode/saas-revenue-leakage-audit/bi/dax_measures_reference.md): 16 production DAX measures formatted with inline architecture notes, including What-If parameter modeling (`[Projected ARR Recaptured]` driven by `[Dunning Optimization Efficiency %]`).
-- [`bi/dashboard_wireframe_spec.md`](file:///c:/Users/polis/OneDrive/Desktop/Personal/.vscode/saas-revenue-leakage-audit/bi/dashboard_wireframe_spec.md): Complete 2-page executive BI suite specification:
-  - **Page 1: CFO Revenue Health & MRR Waterfall** (Waterfall bridge, 12-month cohort NRR heatmap, Voluntary vs. Involuntary churn composition).
-  - **Page 2: Payment Operations & Involuntary Leakage Diagnostic** (Decline code Pareto analysis, Kaplan-Meier decay curves, interactive What-If ARR recovery slider).
+- [`bi/dashboard_wireframe_spec.md`](file:///c:/Users/polis/OneDrive/Desktop/Personal/.vscode/saas-revenue-leakage-audit/bi/dashboard_wireframe_spec.md): Complete 2-page executive BI suite specification.
+
+### Executive Dashboard Suite
+
+#### Page 1: CFO Revenue Health & MRR Waterfall
+*Executive MRR waterfall bridge, 12-month cohort NRR retention matrix, and voluntary vs. involuntary churn composition.*
+![CFO Revenue Health & MRR Waterfall](bi/screenshots/page1_cfo_health.png)
+
+#### Page 2: Payment Operations & Involuntary Leakage Diagnostic
+*Decline code Pareto loss distribution, payment recovery decay by card type and retry gap, and interactive What-If ARR recapture modeling.*
+![Payment Operations & Involuntary Leakage Diagnostic](bi/screenshots/page2_dunning_ops.png)
 
 ---
 
