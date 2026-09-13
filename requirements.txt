@@ -1,0 +1,9 @@
+pandas>=2.1.0
+numpy>=1.26.0
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9
+faker>=22.0.0
+lifelines>=0.28.0
+plotly>=5.18.0
+python-dotenv>=1.0.0
+pytest>=8.0.0

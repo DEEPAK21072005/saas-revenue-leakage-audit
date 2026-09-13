@@ -1,0 +1,9 @@
+plan_sk,plan_id,plan_name,plan_surrogate_key,price,currency,billing_interval,tier_rank,version,valid_from,valid_to,is_current
+1,starter,Starter,plan_starter_v1,49.0,USD,monthly,1,1,2023-01-01 00:00:00+00:00,2024-07-01 00:00:00+00:00,False
+2,starter,Starter,plan_starter_v2,59.0,USD,monthly,1,2,2024-07-01 00:00:00+00:00,,True
+3,growth,Growth,plan_growth_v1,199.0,USD,monthly,2,1,2023-01-01 00:00:00+00:00,2024-07-01 00:00:00+00:00,False
+4,growth,Growth,plan_growth_v2,249.0,USD,monthly,2,2,2024-07-01 00:00:00+00:00,,True
+5,enterprise,Enterprise,plan_enterprise_v1,799.0,USD,monthly,3,1,2023-01-01 00:00:00+00:00,2024-07-01 00:00:00+00:00,False
+6,enterprise,Enterprise,plan_enterprise_v2,849.0,USD,monthly,3,2,2024-07-01 00:00:00+00:00,,True
+7,scale,Scale,plan_scale_v1,1999.0,USD,monthly,4,1,2023-01-01 00:00:00+00:00,2024-07-01 00:00:00+00:00,False
+8,scale,Scale,plan_scale_v2,2199.0,USD,monthly,4,2,2024-07-01 00:00:00+00:00,,True
